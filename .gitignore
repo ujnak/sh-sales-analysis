@@ -1,0 +1,12 @@
+
+# APM dependencies
+apm_modules/
+apm.lock.yaml
+.dbtools/
+.github/
+.claude/
+.agents/
+.codex/
+.mcp.json
+CLAUDE.md
+AGENTS.md

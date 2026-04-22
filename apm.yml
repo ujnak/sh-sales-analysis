@@ -1,0 +1,15 @@
+name: sales-analytics
+version: 0.1.0
+description: Oracle DB（SHスキーマ）の販売データを分析するためのAPMパッケージ。売上集計、ランキング、トレンド分析をサポート。
+author: Yuji
+dependencies:
+  mcp:
+  - name: oracle-sh
+    registry: false
+    transport: stdio
+    command: /opt/homebrew/Caskroom/sqlcl/26.1.0.086.1709/sqlcl/bin/sql
+    args:
+        - -mcp
+        - -R
+        - 4
+scripts: {}
