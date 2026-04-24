@@ -7,6 +7,9 @@ apm.lock.yaml
 .claude/
 .agents/
 .codex/
+.opencode/
+opencode.json
+opencode.jsonc
 .mcp.json
 CLAUDE.md
 AGENTS.md
