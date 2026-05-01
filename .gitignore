@@ -9,6 +9,7 @@ apm.lock.yaml
 .codex/
 .opencode/
 .gemini/
+.cursor/
 opencode.json
 opencode.jsonc
 .mcp.json
